@@ -10,7 +10,7 @@ async function connectToDatabase() {
         console.log("Connected to MongoDB");
         
         // Specify the database name
-        const database = client.db('yourDatabaseName');  // Replace with your database name
+        const database = client.db('vercel1');  // Replace with your database name
         
         // Return the database connection
         return database;
