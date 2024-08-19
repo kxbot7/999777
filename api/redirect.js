@@ -5,7 +5,7 @@ const client = new MongoClient(process.env.MONGODB_URI);
 async function connectToDatabase() {
     try {
         await client.connect();
-        const database = client.db('yourDatabaseName');  // Replace with your database name
+        const database = client.db('vercel1');  // Replace with your database name
         return database;
     } catch (error) {
         console.error("MongoDB connection error:", error);
